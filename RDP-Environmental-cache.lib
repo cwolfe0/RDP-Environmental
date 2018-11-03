@@ -286,41 +286,11 @@ X VCC 9 0 1400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# MS560702BA03-50_MS560702BA03-50
+# RDP-Environmental-rescue_CAM-M8Q-0-RDP-Environmental
 #
-DEF MS560702BA03-50_MS560702BA03-50 U 0 40 Y Y 1 L N
-F0 "U" -400 330 50 H V L BNN
-F1 "MS560702BA03-50_MS560702BA03-50" -400 -400 50 H V L BNN
-F2 "SON125P300X500X100-8N" 0 0 50 H I L BNN
-F3 "TE Connectivity" 0 0 50 H I L BNN
-F4 "MS5607-02BA03 Series 3 V 1 to 120 kPa Absolute Barometric Pressure Sensor" 0 0 50 H I L BNN
-F5 "https://www.digikey.com/product-detail/en/te-connectivity-measurement-specialties/MS560702BA03-50/223-1198-1-ND/4700921?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
-F6 "Compliant" 0 0 50 H I L BNN
-F7 "SMD-8 TE Connectivity" 0 0 50 H I L BNN
-F8 "MS560702BA03-50" 0 0 50 H I L BNN
-F9 "http://www.te.com/usa-en/product-MS560702BA03-50.html" 0 0 50 H I L BNN
-F10 "223-1198-1-ND" 0 0 50 H I L BNN
-DRAW
-P 2 0 0 10 -400 -300 400 -300 N
-P 2 0 0 10 -400 300 -400 -300 N
-P 2 0 0 10 400 -300 400 300 N
-P 2 0 0 10 400 300 -400 300 N
-X VDD 1 600 200 200 L 40 40 0 0 W
-X PS 2 -600 100 200 R 40 40 0 0 I
-X GND 3 600 -200 200 L 40 40 0 0 W
-X ~CSB~ 4 -600 200 200 R 40 40 0 0 I
-X ~CSB~ 5 -600 200 200 R 40 40 0 0 I
-X SDO 6 600 0 200 L 40 40 0 0 O
-X SDI/SDA 7 -600 -200 200 R 40 40 0 0 B
-X SCLK 8 -600 0 200 R 40 40 0 0 I C
-ENDDRAW
-ENDDEF
-#
-# RDP-Environmental_CAM-M8Q-0
-#
-DEF RDP-Environmental_CAM-M8Q-0 U 0 40 Y Y 1 F N
+DEF RDP-Environmental-rescue_CAM-M8Q-0-RDP-Environmental U 0 40 Y Y 1 F N
 F0 "U" 0 850 50 H V C CNN
-F1 "RDP-Environmental_CAM-M8Q-0" 0 750 50 H V C CNN
+F1 "RDP-Environmental-rescue_CAM-M8Q-0-RDP-Environmental" 0 750 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -356,6 +326,36 @@ X SCL 6 750 -100 100 L 50 50 1 1 B
 X EXTINT 7 750 0 100 L 50 50 1 1 I
 X V_BCKP 8 750 100 100 L 50 50 1 1 W
 X VCC 9 750 200 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# RDP-Environmental-rescue_MS560702BA03-50-MS560702BA03-50
+#
+DEF RDP-Environmental-rescue_MS560702BA03-50-MS560702BA03-50 U 0 40 Y Y 1 L N
+F0 "U" -400 330 50 H V L BNN
+F1 "RDP-Environmental-rescue_MS560702BA03-50-MS560702BA03-50" -400 -400 50 H V L BNN
+F2 "SON125P300X500X100-8N" 0 0 50 H I L BNN
+F3 "TE Connectivity" 0 0 50 H I L BNN
+F4 "MS5607-02BA03 Series 3 V 1 to 120 kPa Absolute Barometric Pressure Sensor" 0 0 50 H I L BNN
+F5 "https://www.digikey.com/product-detail/en/te-connectivity-measurement-specialties/MS560702BA03-50/223-1198-1-ND/4700921?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "Compliant" 0 0 50 H I L BNN
+F7 "SMD-8 TE Connectivity" 0 0 50 H I L BNN
+F8 "MS560702BA03-50" 0 0 50 H I L BNN
+F9 "http://www.te.com/usa-en/product-MS560702BA03-50.html" 0 0 50 H I L BNN
+F10 "223-1198-1-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 -300 400 -300 N
+P 2 0 0 10 -400 300 -400 -300 N
+P 2 0 0 10 400 -300 400 300 N
+P 2 0 0 10 400 300 -400 300 N
+X VDD 1 600 200 200 L 40 40 0 0 W
+X PS 2 -600 100 200 R 40 40 0 0 I
+X GND 3 600 -200 200 L 40 40 0 0 W
+X ~CSB~ 4 -600 200 200 R 40 40 0 0 I
+X ~CSB~ 5 -600 200 200 R 40 40 0 0 I
+X SDO 6 600 0 200 L 40 40 0 0 O
+X SDI/SDA 7 -600 -200 200 R 40 40 0 0 B
+X SCLK 8 -600 0 200 R 40 40 0 0 I C
 ENDDRAW
 ENDDEF
 #
