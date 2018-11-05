@@ -26,7 +26,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8387-8-and16-bit-AVR-
 	1    0    0    -1  
 $EndComp
 $Comp
-L MS560702BA03-50:MS560702BA03-50 U1
+L RDP-Environmental-rescue:MS560702BA03-50-MS560702BA03-50 U1
 U 1 1 5BD34A0F
 P 3350 1200
 F 0 "U1" H 3350 1667 50  0000 C CNN
@@ -125,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 4600 2000 4600
 $Comp
-L RDP-Environmental:CAM-M8Q-0 U3
+L RDP-Environmental-rescue:CAM-M8Q-0-RDP-Environmental U3
 U 1 1 5BD655C5
 P 6150 1650
 F 0 "U3" H 6150 2475 50  0000 C CNN

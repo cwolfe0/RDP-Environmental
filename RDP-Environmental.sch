@@ -26,7 +26,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8387-8-and16-bit-AVR-
 	1    0    0    -1  
 $EndComp
 $Comp
-L RDP-Environmental-rescue:MS560702BA03-50-MS560702BA03-50 U1
+L RDP-Environmental-rescue:MS560702BA03-50-MS560702BA03-50-RDP-Environmental-rescue U1
 U 1 1 5BD34A0F
 P 3350 1200
 F 0 "U1" H 3350 1667 50  0000 C CNN
@@ -125,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 4600 2000 4600
 $Comp
-L RDP-Environmental-rescue:CAM-M8Q-0-RDP-Environmental U3
+L RDP-Environmental-rescue:CAM-M8Q-0-RDP-Environmental-RDP-Environmental-rescue U3
 U 1 1 5BD655C5
 P 6150 1650
 F 0 "U3" H 6150 2475 50  0000 C CNN
@@ -162,7 +162,7 @@ L Device:R_Small_US R4
 U 1 1 5BD65DD4
 P 2200 4000
 F 0 "R4" V 1995 4000 50  0000 C CNN
-F 1 "200Ω" V 2086 4000 50  0000 C CNN
+F 1 "50kΩ" V 2086 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 4000 50  0001 C CNN
 F 3 "~" H 2200 4000 50  0001 C CNN
 	1    2200 4000
@@ -193,7 +193,7 @@ L Device:R_Small_US R3
 U 1 1 5BD664A5
 P 2200 3650
 F 0 "R3" V 1995 3650 50  0000 C CNN
-F 1 "200Ω" V 2086 3650 50  0000 C CNN
+F 1 "50kΩ" V 2086 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 3650 50  0001 C CNN
 F 3 "~" H 2200 3650 50  0001 C CNN
 	1    2200 3650
@@ -224,7 +224,7 @@ L Device:R_Small_US R2
 U 1 1 5BD66571
 P 2200 3300
 F 0 "R2" V 1995 3300 50  0000 C CNN
-F 1 "200Ω" V 2086 3300 50  0000 C CNN
+F 1 "50kΩ" V 2086 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 3300 50  0001 C CNN
 F 3 "~" H 2200 3300 50  0001 C CNN
 	1    2200 3300
@@ -255,7 +255,7 @@ L Device:R_Small_US R1
 U 1 1 5BD666CD
 P 2200 2950
 F 0 "R1" V 1995 2950 50  0000 C CNN
-F 1 "200Ω" V 2086 2950 50  0000 C CNN
+F 1 "50kΩ" V 2086 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 2950 50  0001 C CNN
 F 3 "~" H 2200 2950 50  0001 C CNN
 	1    2200 2950
